@@ -1,0 +1,50 @@
+.orderSection{
+    display: flex;
+    width: 100%;
+}
+.gallery{
+    width: 60%;
+}
+.gallery img{
+    width: 80%;
+    padding: 20px;
+    border-radius: 50px;
+}
+.orderDisplay{
+    border: 1px solid black;
+    margin: 20px;
+    width: 30%;
+}
+.query{
+    display: flex;
+    justify-content: space-between;
+}
+.holder{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    padding: 10px;
+}
+.holder p{
+    padding-right: 5px;
+}
+.pricing{
+    padding: 10px;
+}
+.numWrapper{
+    display: flex;
+    justify-content:space-around;
+
+}
+.box-4{
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+.box-4:hover{
+    width: 70px;
+
+    cursor: pointer;
+}

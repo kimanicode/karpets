@@ -1,0 +1,37 @@
+.main{
+    
+    background-image: url("/public/images/cover1.jpg");
+    background-size: cover;
+    width: 100vw;
+    height  : 90vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+ .main-contents{
+     text-align: center;
+     padding: 200px;
+ }
+ .main h1{
+     font-size: 40px;
+     font-weight: bold;
+ }
+ .main h3{
+    font-size:20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.main button{
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #0B3948;
+    color: white;
+    margin-top: 30px;
+}
+.main button:hover{
+    background-color: #416165;
+}
