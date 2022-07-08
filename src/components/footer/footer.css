@@ -62,3 +62,20 @@
     border: none;
 
 }
+
+@media (max-width: 768px){
+    .footer-items-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .f-4{
+        margin: 5%;
+    }
+    .myFooter{
+        height: 20%;
+    }
+
+
+}

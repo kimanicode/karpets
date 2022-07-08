@@ -5,32 +5,32 @@ function Footer() {
   return (
     <div className='myFooter'>
         <div className='footer-items-wrapper'>
-            <div>
+            <div className='f-4'>
                 <li><a href='#'>why we wash</a></li>
                 <li><a href='#'>how we wash</a></li>
                 <li><a href='#'>delivery times</a></li>
             </div>
-            <div>
+            <div className='f-4'>
                 <li><a href='#'>Help and FAQ</a></li>
                 <li><a href='#'>Privacy and policy</a></li>
                 <li><a href='#'>terms and policy</a></li>
                 <li><a href='#'>Returns and refunds</a></li>
             </div>
-            <div>
+            <div className='f-4'>
                 <li><a href='#'>Create an account</a></li>
                 <li><a href='#'>Log in</a></li>
                 <li><a href='#'>About us</a></li>
                 <li><a href='#'>Carpet cleaning mastery</a></li>
 
             </div>
-            <div>
+            <div className='f-4'>
                 <li><a href='#'>Walk ins 8am - 4pm, M-F</a></li>
                 <li><a href='#'>Dolphin Heights ,Ruiru</a></li>
                 <li><a href='#'>contact@carpetsafi.com</a></li>
                 
 
             </div>
-            <div>
+            <div className='f-4'>
                 <li><a href='#'></a></li>
             </div>
         </div>

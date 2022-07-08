@@ -48,3 +48,16 @@
 
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    .orderSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery{
+        display: none;
+    }
+    .orderDisplay{
+        width: 80%;
+    }
+}

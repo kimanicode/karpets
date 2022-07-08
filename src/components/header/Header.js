@@ -18,7 +18,7 @@ function Header() {
         <li><a href='#'>Cleaning mastery</a></li>
         <li><a href='#'>my Account</a></li>
       </ul>
-      <button>Get Started</button>
+      <button id='btn'>Get Started</button>
 
     </div>
   )

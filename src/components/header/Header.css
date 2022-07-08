@@ -49,3 +49,18 @@
     background-color: green;
     
 }
+
+
+@media (max-width: 768px){
+    .myHeader{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    
+    /* #btn{
+        display: none;
+    } */
+    
+  }
