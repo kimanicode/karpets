@@ -42,13 +42,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
         padding: 20%;
         color: rgb(24, 20, 20);
+        
        
     }
     .main h1{
         font-size: 30px;
         font-weight: bold;
+        
+    }
+    .main h1,h3 ,button{
+        margin-top: 30%;
     }
 
 }

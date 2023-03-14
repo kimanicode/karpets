@@ -5,19 +5,32 @@ import {BrowserRouter as Router ,Switch, Routes ,Route}from "react-router-dom";
 import Order from './components/order/Order'
 import Footer from './components/footer/Footer';
 import Sidebar from './components/sidebar/Sidebar';
+import Login from './components/login/Login';
 
 function App() {
   return (
-    <Router>
+    <Router >
       <div className="App">
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
      
      <Header />
-     
+    
      <Routes>
-       <Route path = '/' element={<Hero />} />
+        <Route path= '/' >
+         <Route path = '/'  element={<><Hero/><Order /> </> } exact />
+
+        </Route>
+        <Route path='/login' element={<Login />} />
+        
+      
+      
+       
      </Routes>
-     <Order />
+    
+
+     
+     
+     
      
      <Footer />
    

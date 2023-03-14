@@ -1,7 +1,14 @@
 import React from 'react'
 import './Header.css'
+import { useNavigate } from 'react-router-dom';
+
 
 function Header() {
+  const navigate = useNavigate();
+
+  function redirectToLogin(){
+    navigate('/login');
+  }
   return (
     <div className='myHeader'>
       <div className='info'>
@@ -18,7 +25,7 @@ function Header() {
         <li><a href='#'>Cleaning mastery</a></li>
         <li><a href='#'>my Account</a></li>
       </ul>
-      <button id='btn'>Get Started</button>
+      <button id='btn' onClick={redirectToLogin}>Get Started</button>
 
     </div>
   )

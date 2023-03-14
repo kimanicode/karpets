@@ -53,11 +53,14 @@
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
+    
   }
   
   /* Individual item */
   .bm-item {
     display: inline-block;
+    padding-top: 10px;
+
 
 
   color: #d1d1d1;
